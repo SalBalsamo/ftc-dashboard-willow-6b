@@ -16,9 +16,6 @@ public class Exercises_3_SB extends OpMode {
 
     @Override
     public void loop() {
-        if(gamepad1.a) {
-
-        }
         double stickYDifference = gamepad1.left_stick_y - gamepad1.right_stick_y;
         double triggerSum = gamepad1.left_trigger + gamepad1.right_trigger;
         telemetry.addData("Right stick X", gamepad1.left_stick_x);
